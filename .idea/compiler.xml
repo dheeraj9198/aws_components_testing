@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="aws_components_testing" />
         <module name="dynamo_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aws_components_testing" target="1.5" />
       <module name="dynamo_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
